@@ -3,4 +3,4 @@ const bands['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'Norm
 	'An Old Dog'];
 bands.sort();
 
-console.log(bands;)
+console.log(bands);
