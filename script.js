@@ -7,10 +7,7 @@ function stripArticles(bandName) {
     return bandName.replace(/^(The |A |An )/i, '').trim();
 }
 
-bands.sort((a, b) => {
-    const bandA = stripArticles(a);
-    const bandB = stripArticles(b);
-    return bandA.localeCompare(bandB);
+ const sortedBands = bands.sort((a, b) => stripArticles(a).localeCompare(stripArticles(b)));
 });
 
 console.log(bands);
