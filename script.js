@@ -13,5 +13,4 @@ function stripArticles(bandName) {
 	 stripArticles(a).localeCompare(stripArticles(b)));
 
 
-document.getElementById('bands').innerHTML = sortedBands.map(band 
-	=> `<li>${band}</li>`).join('');
+ console.log(sortedBands);
