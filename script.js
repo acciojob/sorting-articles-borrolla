@@ -7,8 +7,8 @@ function stripArticles(bandName) {
     return bandName.replace(/^(The |A |An )/i, '').trim();
 }
 
- const sortedBands = bands.sort((a, b) => stripArticles(a).localeCompare(stripArticles(b)));
-});
+ const sortedBands = bands.sort((a, b) => 
+	 stripArticles(a).localeCompare(stripArticles(b)));
 
-console.log(bands);
+console.log(sortedBands);
 
