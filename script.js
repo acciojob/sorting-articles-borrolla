@@ -15,6 +15,6 @@ function stripArticles(bandName) {
 
  //console.log(sortedBands);
 
-const bandList = document.getElementById('band');
+const bandList = document.getElementById('bands');
         bandList.innerHTML = sortedBands.map(band => `<li>${band}</li>`).join('');
 
