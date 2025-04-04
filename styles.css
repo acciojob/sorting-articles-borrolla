@@ -3,11 +3,21 @@ body {
             font-family: Arial, sans-serif;
             margin: 20px;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
+       
+ul {
+    list-style-type: square; /* Ensures square bullets */
+    padding-left: 40px; /* Indent to align bullets properly */
+    text-align: left;
+    display: inline-block;
+}
+
         li {
             padding: 5px;
             font-size: 18px;
 		}
+
+#band-image {
+    width: 200px; /* Adjust image size */ 
+    display: block;
+    margin: 0 auto 20px auto; /* Center the image */
+}
