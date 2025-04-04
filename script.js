@@ -6,7 +6,7 @@ const bands = ['The Plot in You', 'The Devil Wears Prada','Pierce the Veil',
 
 
 function stripArticles(bandName) {
-    return bandName.replace(/^(The |A |An )/i,'').trim();
+    return bandName.replace(/^(a |an |the )/i, '').trim();
 }
 
  const sortedBands = bands.sort((a, b) => 
